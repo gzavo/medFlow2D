@@ -1,0 +1,6 @@
+## How to plot data from coagulation info file?
+
+Using gnuplot ( http://www.gnuplot.info/ ), execute the following commands:
+
+set yrange [] reverse
+plot 'coag_000xyz.txt' u 1:2:3 palette z
